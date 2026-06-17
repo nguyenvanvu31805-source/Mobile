@@ -63,7 +63,7 @@ public class ChamCongAdapter extends BaseAdapter {
         }
         
         ChamCong chamCong = listChamCong.get(position);
-        
+
         TextView tvMaNV = convertView.findViewById(R.id.tv_ma_nv);
         TextView tvHoTen = convertView.findViewById(R.id.tv_ho_ten);
         TextView tvNgay = convertView.findViewById(R.id.tv_ngay);
@@ -86,7 +86,8 @@ public class ChamCongAdapter extends BaseAdapter {
             tvMaNV.setVisibility(View.GONE);
             tvHoTen.setVisibility(View.GONE);
         }
-        
+
+
         tvNgay.setText("Ngày: " + chamCong.getNgayChamCong());
         tvGioVao.setText("Giờ vào: " + (chamCong.getGioVao() != null ? chamCong.getGioVao() : "Chưa chấm"));
         tvGioRa.setText("Giờ ra: " + (chamCong.getGioRa() != null ? chamCong.getGioRa() : "Chưa chấm"));
