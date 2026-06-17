@@ -75,7 +75,8 @@ public class ChamCongAdapter extends BaseAdapter {
         LinearLayout layoutButtons = convertView.findViewById(R.id.layout_buttons);
         Button btnSua = convertView.findViewById(R.id.btn_sua);
         Button btnXoa = convertView.findViewById(R.id.btn_xoa);
-        
+
+
         // Hiển thị thông tin nhân viên nếu không phải Employee
         if (!"Employee".equals(currentRole) && chamCong.getMaNhanVien() != null) {
             tvMaNV.setText("Mã NV: " + chamCong.getMaNhanVien());
