@@ -69,10 +69,8 @@ BTL_Mobile_QLNS/
 ---
 
 ## 8. Tác giả
-*   **Họ tên:** Nguyễn Duy Thuấn
-*   **Mã SV:** 10123308
-*   **Lớp:** 12523W.1
+*   **Họ tên:** Nguyễn Văn Vũ
+*   **Mã SV:** 12523093
+*   **Lớp:** 12523W.2
 
-*   **Họ tên:** Đào Duy Huy
-*   **Mã SV:** 10123156
-*   **Lớp:** 12523W.1
+
